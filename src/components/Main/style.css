@@ -1,0 +1,139 @@
+.main-wrapper {
+  display: flex;
+
+  margin-top: 40px;
+}
+.main-left {
+  flex: 1;
+  background-color: #fbfbfb;
+  padding: 14px 24px 19px 30px;
+}
+.main-left > .categories {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin: 0;
+  padding: 0;
+}
+.main-right {
+  flex: 3;
+}
+.filterwrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.filterwrapper:hover {
+  color: var(--mainColor);
+}
+.title {
+  margin: 0;
+  padding: 0;
+}
+.filterwrapper > .item {
+  margin: 0;
+  padding: 0;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  cursor: pointer;
+  color: #727272;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 12px;
+}
+
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 80%; /* Full-width */
+  height: 10px; /* Specified height */
+  border-radius: 10px;
+  background: var(--mainColor);
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  background: #3d3d3d; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: var(--mainColor); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+.price-title {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin: 0;
+  padding: 0;
+}
+.price-number {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 900;
+  color: var(--mainColor);
+}
+.item {
+  margin: 0;
+  padding: 0;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  cursor: pointer;
+  color: #727272;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 12px;
+}
+.filter-btn {
+  width: 90px;
+  height: 35px;
+  left: 150px;
+  top: 1117px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+  background: var(--mainColor);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.filter-btn:active {
+  transform: scale(0.8);
+}

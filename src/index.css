@@ -1,0 +1,7 @@
+.root {
+  margin: 0px 120px;
+  margin-bottom: 30px;
+}
+:root {
+  --mainColor: #46a358;
+}

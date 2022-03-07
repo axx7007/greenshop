@@ -1,0 +1,54 @@
+.right-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.right-header {
+  display: flex;
+}
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.navbar2 {
+  flex: 1;
+}
+
+.navbar3 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar1 > .title {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.5px;
+  line-height: 16px;
+  cursor: pointer;
+  color: #3d3d3d;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+.navbar1 > .title:hover {
+  color: var(--mainColor);
+}
+.sort {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin: 0;
+  padding: 0;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  grid-auto-rows: minmax(100px, 400px);
+  /* margin-top: 50px; */
+}
